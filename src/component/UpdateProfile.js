@@ -113,9 +113,11 @@ export default function UpdateProfile() {
         </form>
 
         {user.emailVerified && (
+          
           <button
             onClick={emailVerification}
             className="mt-4 w-full bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700"
+            
           >
             Verify Email
           </button>
