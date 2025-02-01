@@ -82,10 +82,13 @@ export default function UpdateProfile() {
       <div className="p-8 rounded-2xl shadow-2xl w-full max-w-md backdrop-blur-lg border border-gray-300 dark:border-gray-700 bg-white/40 dark:bg-gray-900/50 text-center">
         <h1 className="text-3xl font-bold mb-4">Update Profile</h1>
         <img
-          src={avatar || "https://via.placeholder.com/100"}
-          className="w-24 h-24 rounded-full border-4 border-blue-500 shadow-md mx-auto"
-          alt="User Avatar"
-        />
+                src={
+                  user.photoURL ||
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwcRgFA-KFW6u0wScyvZEBWMLME5WkdeCUg&s"
+                }
+                className="w-24 h-24 rounded-full border-4 border-blue-500 shadow-md"
+                alt="User Avatar"
+              />
         {error && <p className="text-red-500 text-sm mt-3">{error}</p>}
         {success && <p className="text-green-500 text-sm mt-3">Profile updated successfully!</p>}
 
