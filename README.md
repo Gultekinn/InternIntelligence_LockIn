@@ -12,7 +12,7 @@ This project is a full-stack web application built with React, Tailwind CSS, and
 
 ✔️ Seamless User Experience
 
-📸 View -> https://vercel.com/gultekins-projects-a54f5de8/intern-intelligence-lock-in-ix1t
+📸 View ->https://intern-intelligence-lock-in-ix1t.vercel.app/
 
 
 🔧 Technologies Used
